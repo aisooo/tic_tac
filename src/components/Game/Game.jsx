@@ -3,7 +3,7 @@ import Board from "../Board/Board";
 import "./Game.css";
 import { culculateWinner } from "../../helper";
 const Game = () => {
-  const [board, setBoard] = useState(Array(9).fill(null));
+  const [board, setBoard] = useState(Array(25).fill(null));
   const [xIsNext, setXIsNet] = useState(true);
   const winner = culculateWinner(board);
   const handleClick = (index) => {
@@ -20,7 +20,7 @@ const Game = () => {
     return (
       <button
         className="start-btn"
-        onClick={() => setBoard(Array(9).fill(null))}
+        onClick={() => setBoard(Array(25).fill(null))}
       >
         Очистить поле
       </button>
