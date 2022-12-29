@@ -65,7 +65,7 @@ function checkForThreeSimilar(arr, player) {
   for (let i = 0; i < arr.length; i++) {
     if (isPrevious && arr[i] === player) {
       count += 1;
-      if (count === 3) {
+      if (count === 5) {
         return player;
       }
     } else if (arr[i] === player) {
