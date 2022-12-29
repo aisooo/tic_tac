@@ -64,7 +64,7 @@ function checkForThreeSimilar(arr, player) {
   for (let i = 0; i < arr.length; i++) {
     if (isPrevious && arr[i] === player) {
       count += 1;
-      if (count === 3) {
+      if (count === ) {
         return player;
       }
     } else if (arr[i] === player) {
@@ -120,65 +120,3 @@ function getDiagonals(matrix) {
 
   return diagonals;
 }
-
-function checkForThreeSimilar(arr, player) {
-  let count = 0;
-  let isPrevious = false;
-  for (let i = 0; i < arr.length; i++) {
-    if (isPrevious && arr[i] === player) {
-      count += 1;
-      if (count === 5) {
-        return player;
-      }
-    } else if (arr[i] === player) {
-      isPrevious = true;
-      count++;
-    } else if (arr[i] !== player) {
-      isPrevious = false;
-      count = 0;
-    }
-  }
-  return false;
-}
-
-function getDiagonals(matrix) {
-  let diagonals = [];
-
-  for (let i = 0; i < matrix.length; i++) {
-    let diagonal = [];
-    for (let r = 0; r <= i; r++) {
-      for (let c = 0; c <= i; c++) {
-        if (r + c === i) {
-          diagonal.push(matrix[r][c]);
-        }
-      }
-    }
-    diagonals.push(diagonal);
-  }
-
-  let len = matrix.length;
-
-  // for (let i = len - 1; i >= 0; i--) {
-  //   let diagonal = [];
-  //   let diff = len - 1 - i;
-  //   for (let r = 0; r <= i; r++) {
-  //     for(let c = 0; c <= i; c++) {
-  //       if(r + c === i * 2 - diff) {
-  //         diagonal.push(matrix[r][c]);
-  //       }
-  //     }
-  //   }
-  //   diagonals.push(diagonal);
-  // }
-
-  // for (let i = 0; i < matrix.length; i++) {
-  //   let diagonal = [];
-  //   for (let j = 0; j < matrix[i].length; j++) {
-  //     if (i + j === matrix.length - 1) {
-  //       diagonal.push(matrix[i][j]);
-  //     }
-  //   }
-  //   diagonals.push(diagonal);
-  // }
-
-  return diagonals;
