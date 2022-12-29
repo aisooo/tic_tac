@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/cre<img width="756" alt="screeen" src="https://user-images.githubusercontent.com/72738840/209534630-d5e922f5-0bcc-411d-b0a4-d9f581afd443.png">
+ate-react-app).
 
 ## Available Scripts
 
@@ -10,6 +11,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="785" alt="weeb" src="https://user-images.githubusercontent.com/72738840/209905309-da38d80a-829a-4f0a-aab4-e8314e91a608.png">
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
