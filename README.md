@@ -11,6 +11,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="785" alt="weeb" src="https://user-images.githubusercontent.com/72738840/209905309-da38d80a-829a-4f0a-aab4-e8314e91a608.png">
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
